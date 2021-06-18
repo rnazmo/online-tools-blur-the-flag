@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blur the flag</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">blur the flag</h1>
+    </header>
+    <div class="root">
+      <div class="textarea-container">
+        <p>Input:</p>
+        <textarea
+          id="input"
+          placeholder="flag={foo bar}"
+          type="text"
+        ></textarea>
+      </div>
+      <button onclick="main()">Blur</button>
+      <div class="textarea-container">
+        <p>Result:</p>
+        <textarea
+          id="result"
+          placeholder="flag={*** ***}"
+          type="text"
+        ></textarea>
+      </div>
+    </div>
+  </body>
+</html>
